@@ -35,6 +35,7 @@ body {
     box-shadow: 2px 2px 4px #666;
     transition: .3s;
     cursor: pointer;
+    display: block;
 }
 
 .content .header button:hover {
