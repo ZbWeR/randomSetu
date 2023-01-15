@@ -42,9 +42,29 @@ body {
 }
 
 .content .pic {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .content .pic img {
     width: 600px;
+}
+
+.loader {
+    width: 50%;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto 1em;
+    /* border: 1px solid red; */
+}
+
+.hidden {
+    display: none;
+}
+
+/*
+    Set the color of the icon
+*/
+svg path,
+svg rect {
+    fill: #FF6700;
 }
