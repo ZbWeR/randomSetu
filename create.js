@@ -32,10 +32,4 @@ async function create() {
         loading.classList.add('hidden');
         document.querySelector('.content .header button').disabled = false;
     }
-    // setTimeout(() => {
-    //     console.log("@@@");
-    //     loading.classList.add('hidden');
-    // }, 1500);
-    // loading.classList.add('hidden');
-    // ajaxFetch(pos);
 }
